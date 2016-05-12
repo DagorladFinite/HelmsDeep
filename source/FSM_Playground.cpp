@@ -82,6 +82,8 @@ void FSM_Playground::Deinit()
 
 StateCode FSM_Playground::HandleInput()
 {
+
+	haldir.HandleInput();
 	if (InputSingleton::Instance()->doQuit)
 	{
 		return StateCode::QUIT;
@@ -120,7 +122,9 @@ void FSM_Playground::Update(float deltaTime)
 
 	// Update Entities
 	test.Update(deltaTime);
-
+	haldir.Update(deltaTime);
+	
+	//Los orkis pegan
 	if (test.position.Distance(test.position, archer.position) <= 25) {
 
 		if (archer.alive && test.alive) {
@@ -131,6 +135,21 @@ void FSM_Playground::Update(float deltaTime)
 
 		if (archer.hp <= 0) {
 			archer.alive = false;
+		}
+
+	}
+
+	//Haldir pega
+	if (haldir.position.Distance(haldir.position,test.position) <= 25) {
+
+		if (test.alive) {
+			test.hp = test.hp - 2;
+
+		}
+
+
+		if (test.hp <= 0) {
+			test.alive = false;
 		}
 
 	}
@@ -156,8 +175,13 @@ void FSM_Playground::Render()
 	}
 	Area_Render(&boomEntryArea, display->renderer, Colors::ASBESTOS);
 	Area_Render(&boomExitArea, display->renderer, Colors::ASBESTOS);
+	
+	if (test.alive) {
+		test.Render(&boidTexture, display->renderer);
+	}
 
-	test.Render(&boidTexture, display->renderer);
+
+	haldir.Render(&playerTexture, display->renderer);
 
 	if (archer.alive) {
 		archer.Render(&playerTexture, display->renderer);

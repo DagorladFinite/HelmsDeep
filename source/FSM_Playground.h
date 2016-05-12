@@ -14,6 +14,7 @@
 #include "EnemyMacros.h"
 #include "Area.h"
 #include "Path.h"
+#include "Player.h"
 
 class FSM_Playground : public BaseState
 {
@@ -35,6 +36,7 @@ public:
 	
 	WorkerMacros test;
 	Boid archer;
+	Player haldir;
 	
 	Path recorrido;
 
