@@ -56,6 +56,13 @@ void FSM_Playground::Init()
 	test.path = &recorrido;
 	test.loopPath = false;
 
+	test.targetPosition = &archer.position;
+
+	test.slowingRadius = 25;
+
+	archer.position.x = 750;
+	archer.position.y = 500;
+
 	boomEntryArea.center.x = 400;
 	boomEntryArea.center.y = 500;
 	boomEntryArea.radius = 50;
@@ -113,8 +120,20 @@ void FSM_Playground::Update(float deltaTime)
 
 	// Update Entities
 	test.Update(deltaTime);
-		
-	
+
+	if (test.position.Distance(test.position, archer.position) <= 25) {
+
+		if (archer.alive && test.alive) {
+			archer.hp = archer.hp - test.atk;
+
+		}
+
+
+		if (archer.hp <= 0) {
+			archer.alive = false;
+		}
+
+	}
 }
 
 void FSM_Playground::Render()
@@ -137,7 +156,11 @@ void FSM_Playground::Render()
 	}
 	Area_Render(&boomEntryArea, display->renderer, Colors::ASBESTOS);
 	Area_Render(&boomExitArea, display->renderer, Colors::ASBESTOS);
+
 	test.Render(&boidTexture, display->renderer);
-	
+
+	if (archer.alive) {
+		archer.Render(&playerTexture, display->renderer);
+	}
 	
 }

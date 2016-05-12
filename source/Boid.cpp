@@ -197,7 +197,10 @@ void Boid::DoArrive(float deltaTime)
 	else
 	{
 		// Slow down based on distance to target
-		targetSpeed = K_MAX_SPEED * (distanceToTarget / slowingRadius);
+		//targetSpeed = K_MAX_SPEED * (distanceToTarget / slowingRadius);
+		targetSpeed = 0;
+		speed = { 0,0 };
+		SetBehaviour(Behaviour::NONE);
 	}
 
 	// Normalize and scale by targetSpeed
@@ -429,7 +432,7 @@ void Boid::DoPathFollowing(float deltaTime)
 			}
 			else
 			{
-				targetParameter = 1.0f;
+				SetBehaviour(Behaviour::ARRIVE);
 			}
 		}
 		else if (targetParameter < 0.0f)

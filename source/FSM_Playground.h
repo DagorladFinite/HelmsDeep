@@ -34,6 +34,7 @@ public:
 	Texture playerAttacking;
 	
 	WorkerMacros test;
+	Boid archer;
 	
 	Path recorrido;
 

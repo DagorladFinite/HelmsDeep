@@ -1,0 +1,84 @@
+﻿'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\HelmsDeep\bin\Activitat4.exe'. Symbols loaded.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\SDL2_image.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\SDL2_ttf.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\SDL2_mixer.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\SDL2.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\libfreetype-6.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\zlib1.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\XAudio2_7.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\MMDevAPI.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dinput8.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\hid.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\setupapi.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\XInput1_4.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\libpng16-16.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\AudioSes.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\powrprof.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\avrt.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Users\vnavarro\Desktop\Final IA\bin\libmodplug-1.dll'. Module was built without symbols.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wdmaud.drv'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ksuser.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msacm32.drv'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msacm32.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\midimap.dll'. Cannot find or open the PDB file.
+The thread 0x19d0 has exited with code 0 (0x0).
+The thread 0x14b4 has exited with code 0 (0x0).
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d9.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\nvd3dum.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\psapi.dll'. Cannot find or open the PDB file.
+'Activitat4.exe' (Win32): Loaded 'C:\Windows\SysWOW64\nvspcap.dll'. Cannot find or open the PDB file.
+The thread 0x1eac has exited with code 0 (0x0).
+'Activitat4.exe' (Win32): Loaded 'C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPI.dll'. Cannot find or open the PDB file.
+The thread 0x290 has exited with code 0 (0x0).
+The thread 0x1dec has exited with code 0 (0x0).
+The thread 0x1fec has exited with code 0 (0x0).
+The thread 0x2bc has exited with code 0 (0x0).
+The thread 0x1738 has exited with code 0 (0x0).
+The thread 0x15cc has exited with code 0 (0x0).
+'Activitat4.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\nvd3dum.dll'
+'Activitat4.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\d3d9.dll'
+'Activitat4.exe' (Win32): Unloaded 'C:\Users\vnavarro\Desktop\Final IA\bin\libmodplug-1.dll'
+'Activitat4.exe' (Win32): Unloaded 'C:\Users\vnavarro\Desktop\Final IA\bin\libpng16-16.dll'
+The thread 0xcbc has exited with code 0 (0x0).
+'Activitat4.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\XInput1_4.dll'
+The thread 0x544 has exited with code 0 (0x0).
+The thread 0x458 has exited with code 0 (0x0).
+The thread 0x1658 has exited with code 0 (0x0).
+The thread 0x1698 has exited with code 0 (0x0).
+The thread 0x14f4 has exited with code 0 (0x0).
+The program '[8180] Activitat4.exe' has exited with code 0 (0x0).

@@ -9,40 +9,47 @@ bool WorkerMacros::States(StateMachineEvent event, int state)
 		State(STATE_IDLE)
 		OnEnter
 
+		//Cuando se entra en este estado, el Uruk pasa automáticamente a estar en idle
+		SetBehaviour(Behaviour::NONE);
 	OnUpdate
-		// If miner is not fatigued start to dig for nuggets again.
-		if (foodFound)
-		{
-			ChangeState(STATE_GATHER);
+		
+		//En el primer update de la máquina de estados, comprobamos si la partida ha iniciado y ponemos en marcha a nuestro Uruk
+		//El estado idle es un estado "safe" al que se puede volver siempre que pase algo extraño
+		
+		if (started) {
+			ChangeState(STATE_SEEK);
+		}
 			
-		}
-		else
-		{
-			SetBehaviour(Behaviour::NONE);
-		}
+		
 	OnExit
-		State(STATE_GATHER)
+
+		State(STATE_SEEK)
 		OnEnter
-		SetBehaviour(Behaviour::SEEK_STEERING);
-		//TARGET DEL SEEK
-		//targetPosition
+		//Cuando entren en combat, los Uruks determinarán cual es el objetivo prioritario al que atacar
+		SetBehaviour(Behaviour::ARRIVE);
 	OnUpdate
-	if(inDanger)
+		if (position.Distance(position, *targetPosition))
 	{
-		ChangeState(STATE_FLEE);
+
+		ChangeState(STATE_COMBAT);
 
 	}
 	OnExit
-	State(STATE_FLEE)
+
+
+	State(STATE_COMBAT)
 		OnEnter
-		SetBehaviour(Behaviour::FLEE_STEERING);
-		//targets[1]
+		SetBehaviour(Behaviour::NONE);
+		
 	OnUpdate
 
-		if (!inDanger) {
+	OnExit
 
-			ChangeState(STATE_GATHER);
-		}
+		State(STATE_NAVIGATE)
+		OnEnter
+
+	OnUpdate
+
 	OnExit
 	EndStateMachine
 }

@@ -62,6 +62,11 @@ struct Boid : public Entity
 	bool inPosition = false;
 	bool carrying;
 
+	//Combat fields
+	int hp = 100;
+	int atk = 1;
+	bool alive = true;
+
 	// Steering fields
 	Vector2D* targetPosition = {};
 	Vector2D desiredVelocity = {};
