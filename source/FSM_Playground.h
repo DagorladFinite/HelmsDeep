@@ -28,6 +28,7 @@ public:
 	// State Data
 	bool stateFoodFound = false;
 	int flockNumber = 5;
+	int numUruks = 4;
 
 	// Textures
 	Texture boidTexture;

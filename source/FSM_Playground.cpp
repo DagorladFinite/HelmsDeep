@@ -23,7 +23,7 @@ void FSM_Playground::Init()
 		FC_MakeColor(255, 255, 255, 255), TTF_STYLE_NORMAL);
 
 	boidTexture = {};
-	SetResourcesFilePath("Images/Boid.png");
+	SetResourcesFilePath("Images/Uruk.png");
 	if (Texture_LoadFromFile(&boidTexture, display->renderer, resourcesFilePath) == false)
 	{
 		SDL_Log("Failed to load Image!\n");
@@ -157,6 +157,7 @@ void FSM_Playground::Update(float deltaTime)
 
 void FSM_Playground::Render()
 {
+	
 	if (paused == true)
 	{
 		FC_DrawAlign(fontBig, display->renderer,
